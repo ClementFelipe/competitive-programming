@@ -1,9 +1,8 @@
-package intro.sup.easy;
+// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2113
 
 import java.io.*;
 
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2113
-class Main {
+class RelationalOperators11172 {
 
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
