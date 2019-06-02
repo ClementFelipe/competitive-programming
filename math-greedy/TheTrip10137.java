@@ -1,8 +1,4 @@
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1078
-
 import java.io.*;
-import java.math.BigDecimal;
-import java.math.MathContext;
 import java.util.Arrays;
 
 public class TheTrip10137 {

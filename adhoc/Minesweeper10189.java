@@ -1,9 +1,7 @@
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1130
-
 import java.io.*;
 import java.util.Arrays;
 
-public class Minesweeper10189 {
+class Minesweeper10189 {
 
   public static void main(String[] args) throws Exception {
 

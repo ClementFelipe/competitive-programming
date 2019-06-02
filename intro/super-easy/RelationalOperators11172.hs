@@ -1,5 +1,8 @@
 main :: IO ()
-main = putStrLn (concat (fizzBuzz [1..100]))
+main = do
+  min <- readLn
+  max <- readLn
+  putStrLn (concat (fizzBuzz [min..max]))
 
 fizzBuzz :: (Integral numbers, Show numbers) => [numbers] -> [String]
 fizzBuzz numbers = [fizzBuzzOneElement number | number <- numbers]
