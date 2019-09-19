@@ -30,7 +30,8 @@ def handle_case():
         line = stdin.readline()
 
         for c in line:
-            total_cents += character_costs[ord(c)] if ord(c) < 256 else 0
+            char = ord(c)
+            total_cents += character_costs[char] if char < 256 else 0
 
     dollars = int(total_cents/100)
     cents = total_cents - dollars * 100
